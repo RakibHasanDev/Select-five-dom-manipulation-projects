@@ -1,0 +1,145 @@
+.body {
+    background-color: #151515;
+}
+
+.header-section {
+    background-color: #000000;
+    height: 481px;
+}
+
+.header-div {
+    height: 481px;
+}
+
+.header-img img {
+    position: absolute;
+    Width: 320px;  
+    Height: 440px;
+    margin-Top: 64.8px;
+
+}
+
+.heading-title {
+    color: #FF5E19;
+    font-family: 'Berkshire Swash';
+    
+
+}
+
+.header-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    width: 80%;
+}
+
+.header-second-img img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 80px;
+}
+
+.header-third-img img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 320px;
+    filter: grayscale(100%);
+    opacity: .3;
+}
+
+.select-button {
+    width: 210px;
+    height: 42px;
+
+}
+/* .li-design{
+    font-size: 18px;
+   margin-bottom: 2px;
+    
+} */
+
+#calculate-card {
+    height: 530px;
+    background-color: black;
+}
+
+footer hr {
+
+    border: 1px solid #717171;
+}
+
+.input-field input {
+    width: 110px;
+    height: 38px;
+}
+
+#total {
+    color: #FF5E19;
+}
+.last-section{
+    margin-top: -12rem;
+}
+
+
+/* media query  */
+
+@media only screen and (max-width:688px) {
+    .header-img img {
+        display: none;
+    }
+     .header-section .header-div{
+        width: 70% ;
+        margin: auto;
+     }
+     .heading-title{
+        color: white;
+     }
+     .header-paragraph{
+        display: none;
+     }
+
+    .header-second-img img {
+        display: none;
+    }
+        .header-section{
+            background-image: url(/images/header/ronaldo.jpg);
+           background-size: cover;
+           height: 500px;
+            background-repeat: no-repeat;
+            
+            color: black !important;
+        }
+                .last-section {
+                    margin-top: 10px;
+                }
+
+}
+
+@media only screen and (min-width:688px) and (max-width:992px){
+
+
+.select-button {
+        width: auto;
+        height: auto;
+
+    }
+.input-field input {
+    width: 80px;
+    height: auto;
+}
+.header-img img {
+    position: absolute;
+    Width: 200px;
+    Height: 440px;
+    margin-Top: 64.8px;
+
+}
+.card-section{
+    overflow-x: hidden;
+}
+.last-section {
+    margin-top: 20px;
+}
+}
